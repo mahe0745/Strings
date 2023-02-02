@@ -4,7 +4,7 @@ public class CountCharacters {
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter the String");
 		String s = sc.nextLine();
-	    s = s.toLowerCase().replace(" ", "");
+	    	s = s.toLowerCase().replace(" ", "");
 		String a ="aeiuo";
 		Implementation i = new Implementation();
 		i.checkConsonants(s,a);
@@ -39,7 +39,7 @@ class Implementation{
 		System.out.println("Consonants in a String is"+" "+s1+" "+"and their Count is"+" "+s1.length());
 	}
 	public void checkSpecialCharacters(String s) {
-	    String s1="";
+	       String s1="";
 		for(int i=0;i<s.length();i++) {
 	    	if(!(s.charAt(i)>='a' & s.charAt(i)<='z'))
 	    			if(!(s.charAt(i)>='0' &s.charAt(i)<='9'))
