@@ -17,7 +17,7 @@ public class DuplicatesPrint {
 				  if(arr[i]==arr[j]) {
 	                 if(!(s1.contains(Character.valueOf(arr[j]).toString()))) {
 	                	 s1=s1+arr[j];
-	                 }
+	                              }
 				  }
 			  }
 		  }
