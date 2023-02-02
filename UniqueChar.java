@@ -9,9 +9,9 @@ public class UniqueChar {
 		System.out.println("Enter the String to check");
 		String s = sc.next();
 		s=s.replace(" ", "");
-        unique(s);
+       	        unique(s);
 	}
-    public static void unique(String s) {
+    	public static void unique(String s) {
     	char[] arr = s.toCharArray();
     	boolean b=true;
     	Arrays.sort(arr);
