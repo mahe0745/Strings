@@ -6,7 +6,7 @@ public class StringRemove {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String to remove duplicate");
 		String s = sc.next();
-        System.out.println(removeDuplicates(s));
+        	System.out.println(removeDuplicates(s));
 	}
 	public static String removeDuplicates(String s) {
 		  char[] arr = s.toCharArray();
